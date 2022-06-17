@@ -36,6 +36,9 @@ public class LoginPage {
 		passTextBox.sendKeys(pass);
 		loginButton.click();
 	}
-	
+	public void isButtonPresent1()
+	{
+		System.out.println("ok");
+	}
 
 }
